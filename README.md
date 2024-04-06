@@ -1,114 +1,70 @@
-# MED3 - Electronic Health Record System using React.js and Polygon Blockchain
+# Getting Started with Create React App
 
-MED3 is an Electronic Health Record (EHR) system that utilizes blockchain technology for secure and efficient health data management. It is built on top of React.js and Polygon blockchain, leveraging the benefits of RainbowKit and MaterialUI for UI design and Web3 Storage for data storage.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Features
+## Available Scripts
 
-- Secure and decentralized health data management
-- Efficient health data sharing among healthcare providers
-- Simple and intuitive UI design with RainbowKit
-- Reliable data storage with Web3 Storage
-- Seamless integration with Polygon blockchain
+In the project directory, you can run:
 
-## Getting Started
+### `npm start`
 
-### Prerequisites
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- Node.js
-- Hardhat
-- SCSS
-- Solidity
-- React.js
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-### Installation
+### `npm test`
 
-1. Clone the repository and navigate to the project directory
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-```bash
-git clone https://github.com/avibhawnani/med3.git
-cd med3
-```
+### `npm run build`
 
-2. Install dependencies
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-```bash
-npm install
-```
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-3. Compile the contracts using Hardhat
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-```bash
-npx hardhat compile
-```
+### `npm run eject`
 
-4. Start the local development network
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-```bash
-npx hardhat node
-```
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-5. Deploy the contracts to the local network
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-```bash
-npx hardhat run scripts/deploy.js --network polygon_mumbai
-```
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-6. Start the React.js application
+## Learn More
 
-```bash
-cd client
-npm start
-```
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-7. Open the application in your web browser at `http://localhost:3000/`
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-## Usage
+### Code Splitting
 
-1. Connect to a blockchain network using Metamask or another compatible wallet
-2. Create a patient account
-3. Add health records for the patient
-4. Share the patient's health records with healthcare providers
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-## Roadmap
+### Analyzing the Bundle Size
 
-- Implement additional features such as appointment scheduling and telemedicine
-- Add support for additional blockchain networks
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-## License
+### Making a Progressive Web App
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). See the `LICENSE` file for details.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-## Acknowledgments
+### Advanced Configuration
 
-- [React.js](https://reactjs.org/)
-- [Polygon](https://polygon.technology/)
-- [Hardhat](https://hardhat.org/)
-- [SCSS](https://sass-lang.com/)
-- [RainbowKit](https://rainbowkit.co/)
-- [Web3 Storage](https://web3.storage/)
-- [Solidity](https://soliditylang.org/)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
+### Deployment
 
-## Proof of Work
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### Home Page
+### `npm run build` fails to minify
 
-![Screenshot (57)](https://github.com/avibhawnani/MED3/assets/88795320/fa31a522-3605-4ee1-97c4-cff57d9b61bb)
-
-![Screenshot (58)](https://github.com/avibhawnani/MED3/assets/88795320/5101ab5d-7f1a-4481-a976-648374e4600f)
-
-### Admin Dashboard
-
-![Screenshot (60)](https://github.com/avibhawnani/MED3/assets/88795320/480658e0-7043-4df6-840f-e87f9ba88d0e)
-
-### Staff Dashboard
-
-![Screenshot (65)](https://github.com/avibhawnani/MED3/assets/88795320/d1f8ba4c-b751-4245-94be-907d2cdee760)
-
-### Doctor Dashboard
-
-![Screenshot (73)](https://github.com/avibhawnani/MED3/assets/88795320/27a0d8e6-ab49-4772-b3d8-3a268e1e70d9)
-
-### Patient Dashboard
-
-![Screenshot (85)](https://github.com/avibhawnani/MED3/assets/88795320/439d1e98-a889-49ba-93db-10c6edb5c32f)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
