@@ -1,7 +1,6 @@
 import React from "react";
 import "./Footer.scss";
 import { FaLocationArrow, FaMobileAlt, FaEnvelope } from "react-icons/fa";
-import { AiTwotoneHeart } from "react-icons/ai";
 const Footer = () => {
   return (
     <footer className="footer">
@@ -22,16 +21,16 @@ const Footer = () => {
           <div className="c-item">
             <FaLocationArrow></FaLocationArrow>
             <div className="text">
-            MED 3 Inc Sector 26 A, Indira Nagar, Lucknow, Uttar Pradesh 226016, India
+            chennai , TN , India 
             </div>
           </div>
           <div className="c-item">
             <FaMobileAlt></FaMobileAlt>
-            <div className="text">Phone: +9107241127</div>
+            <div className="text">Phone: +91 123456789</div>
           </div>
           <div className="c-item">
             <FaEnvelope></FaEnvelope>
-            <div className="text">Email: admin@med3.in</div>
+            <div className="text">Email: med3chain@admin.com</div>
           </div>
         </div>
         <div className="col">
@@ -56,8 +55,7 @@ const Footer = () => {
       <div className="bottom-bar">
         <div className="bottom-bar-content">
           <div className="text">
-            MED 3 Inc &copy; 2023 | CREATED WITH <AiTwotoneHeart color="blue" /> IN
-            INDIA
+            MED 3 Inc &copy; 2024 
           </div>
           
         </div>
